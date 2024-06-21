@@ -9,7 +9,7 @@ export function toggleSidebar() {
 }
 
 export function toggleTheme() {
-  theme.update((currentTheme: string) => (currentTheme === 'light' ? 'dark' : 'light'));
+  theme.update((currentTheme: string) => (currentTheme === 'default' ? 'dark' : 'default'));
 }
 
 export function setTheme(newTheme: string) {

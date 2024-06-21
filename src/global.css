@@ -4,7 +4,10 @@
     --primary-color: #3490dc;
     --secondary-color: #ffed4a;
     --background-color: #efefef;
+    --title-color: #fff;
     --text-color: #333;
+    --appbarHeight: 4rem;
+    --sidebarWidth: 70rem;
   }
   
   [data-theme='dark'] {
@@ -16,6 +19,7 @@
 
   [data-theme='compact'] {
     --background-color: #f7fafc;
+    --title-color: #dff;
     --text-color: #555;
     --primary-color: #2b6cb0;
     --secondary-color: #68d391;
@@ -25,6 +29,7 @@
   
   [data-theme='vibrant'] {
     --background-color: #f0e68c;
+    --title-color: #000;
     --text-color: #555;
     --primary-color: #ff4500;
     --secondary-color: #32cd32;
